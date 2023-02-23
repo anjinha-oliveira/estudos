@@ -9,7 +9,11 @@
 <body>
     <h1>Inserindo videos hospedados localmente</h1>
     <p>Este video está hospedado no meu próprio servidor.</p>
-    <video src="midia/meu-video.mp4" width="500" controls autoplay loop></video>
+    <video width="600" controls autoplay loop>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.ogv" type="video/ogv">
+        <p>Seu navegador não é compatível com videos</p>
+    </video>
     
 </body>
 </html>
