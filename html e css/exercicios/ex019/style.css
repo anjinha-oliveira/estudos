@@ -14,11 +14,27 @@ h1#principal {
     text-align: center;
 
 }
+h1.destaque {
+    background-color: antiquewhite;
+    text-align: center;
+}
 
 h2 {
    color: #1F0802;
+   
 }
 
 p {
     text-indent: 30px;
+}
+
+h2.basico {
+    color: #6d1c67 ;
+    
+}
+h2.intermediario {
+    color: #4e6d1c;
+}
+h2.avancado {
+    color: #6d231c;
 }
