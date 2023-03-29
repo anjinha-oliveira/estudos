@@ -1,2 +1,2 @@
 # estudos
-Esse é um repositório de estudos. 
+Esse é um repositório de estudos.
