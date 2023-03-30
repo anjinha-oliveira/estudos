@@ -68,8 +68,15 @@ h1.main-title {
     font-weight: normal;
     color: #11700D
 }
+h2.title-two {
+    font-family: idroid;
+    text-align: center;
+    font-weight: normal;
+    color: #11700D;
+}
 
 p {
     text-indent: 10px;
     font-size: large;
 }
+
