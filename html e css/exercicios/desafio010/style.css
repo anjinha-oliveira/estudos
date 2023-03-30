@@ -1,12 +1,22 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: "idroid";
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+body {
+    background-color: #B1F2AC;
+    margin: auto;
+}
+
 header {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     text-align: center;
-    background-color: #49BF58;
+    background-color: #17BD6A;
     color: white;
-    padding: 31px;
+    padding: 18px;
 }
 h1 {
     margin: 25px;
@@ -14,8 +24,33 @@ h1 {
 }
 h3 {
     font-size: 15px;
+    padding: 3px;
+    margin: 35px;
 }
+
 nav {
-    background-color: #2D7637;
+    background-color: #2F7050;
+    margin: -18px;
     padding: 12px;
+    text-align: justify;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+nav:hover > a {
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.51);
+}
+main {
+    background-color: white;
+    margin: 0px 20px;
+    padding: 1px 10px;
+    text-indent: 2px;
+}
+h1.main-title {
+    font-family: idroid;
 }
