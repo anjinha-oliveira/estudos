@@ -26,6 +26,7 @@ h3 {
     font-size: 15px;
     padding: 3px;
     margin: 35px;
+    color: whitesmoke;
 }
 
 nav {
@@ -33,7 +34,11 @@ nav {
     margin: -18px;
     padding: 12px;
     text-align: justify;
+    display: flex;
+    justify-content: space-around;
 }
+
+
 
 a {
     color: white;
@@ -50,7 +55,21 @@ main {
     margin: 0px 20px;
     padding: 1px 10px;
     text-indent: 2px;
+    box-shadow: 2px 1px 4px 0px rgb(22 16 16 / 46%);
 }
+a.external {
+   color: #11700D;
+   font-weight: bolder;
+}
+
 h1.main-title {
     font-family: idroid;
+    text-align: center;
+    font-weight: normal;
+    color: #11700D
+}
+
+p {
+    text-indent: 10px;
+    font-size: large;
 }
