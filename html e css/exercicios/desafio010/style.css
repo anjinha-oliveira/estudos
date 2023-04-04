@@ -88,8 +88,9 @@ h4 {
     border-radius: 5px 5px 0px 0px;
 }
 
-footer {
-    background-color: #B1F2AC;
+article.text-end {
+    background-color: #a0cf9d7d;
+    border-radius: 9px;
 }
 
 div {
@@ -100,4 +101,7 @@ div {
 
 ul {
     list-style-type: none;
+}
+footer {
+    background-color: #2F7050;
 }
