@@ -92,11 +92,12 @@ footer {
     background-color: #B1F2AC;
 }
 
-ul.frist-ul {
-    list-style-type: none;
-    text-align: left;
+div {
+    display: flex;
+    flex-wrap: nowrap;
+
 }
 
-ul.second-ul {
+ul {
     list-style-type: none;
 }
