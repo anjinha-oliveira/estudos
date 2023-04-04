@@ -80,3 +80,23 @@ p {
     font-size: large;
 }
 
+h4 {
+    background-color: #17BD6A;
+    color: white;
+    height: 25px;
+    border-radius: -4px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+footer {
+    background-color: #B1F2AC;
+}
+
+ul.frist-ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+ul.second-ul {
+    list-style-type: none;
+}
