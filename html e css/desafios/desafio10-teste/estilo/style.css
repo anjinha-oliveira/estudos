@@ -1,13 +1,42 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&family=Sono:wght@300&display=swap');
+
+@font-face {
+    font-family: "android";
+    src: url(../fontes/idroid.otf) format(opentype);
+
+}
+
 :root {
     --cor0: #A8D99A;
     --cor1: #3FD117;
     --cor2: #309E11;
     --cor3: #195209;
     --cor4: #2C5221;
+
+    --fonte-padrão: Arial, Verdana, Helvetica, sans-serif; 
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'android';
 }
 
 body {
     background-color: var(--cor0);
+    font-family: var(--fonte-padrão);
+}
+
+header {
+    background-color: var(--cor4);
+}
+header > p {
+    color: white;
+}
+
+header > h1 {
+    color: white;
+    font-family: var(--fonte-destaque);
+}
+article > h1 {
+    color: var(--cor3);
+    font-family: var(--fonte-android);
 }
