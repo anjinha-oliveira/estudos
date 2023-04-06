@@ -28,6 +28,7 @@
 body {
     background-color: var(--cor0);
     font-family: var(--fonte-padrão);
+    margin: auto;    
 }
 
 header {
@@ -49,6 +50,7 @@ nav {
 
 main {
     background-color: white;
+    
 }
 
 article > h1 {
