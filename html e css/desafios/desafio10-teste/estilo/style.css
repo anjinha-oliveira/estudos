@@ -20,23 +20,48 @@
     --fonte-android: 'android';
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-color: var(--cor0);
     font-family: var(--fonte-padrão);
 }
 
 header {
-    background-color: var(--cor4);
-}
-header > p {
-    color: white;
+    background-color: var(--cor2);
 }
 
 header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
 }
+
+header > p {
+    color: white;
+}
+
+nav {
+    background-color: var(--cor3);
+}
+
+main {
+    background-color: white;
+}
+
 article > h1 {
     color: var(--cor3);
     font-family: var(--fonte-android);
+}
+
+article > h2 {
+    color: var(--cor3);
+    font-family: var(--fonte-android);
+}
+
+footer {
+    background-color: var(--cor4);
+    color: white;
 }
