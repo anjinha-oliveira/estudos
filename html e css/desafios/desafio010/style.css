@@ -18,6 +18,7 @@ header {
     color: white;
     padding: 18px;
 }
+
 h1 {
     margin: 25px;
     font-size: 30px;
@@ -54,6 +55,7 @@ main {
     padding: 1px 10px;
     text-indent: 2px;
     box-shadow: 2px 1px 4px 0px rgb(22 16 16 / 46%);
+    margin-bottom: 26px;
 }
 a.external {
    color: #11700D;
@@ -100,6 +102,13 @@ div {
 ul {
     list-style-type: none;
 }
+
+img.bugdroid {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
 footer {
     background-color: #2F7050;
 }
