@@ -133,4 +133,16 @@ img.bugdroid {
 
 footer {
     background-color: #2F7050;
+    padding: 12px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+footer > a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+footer > a:hover {
+    text-decoration: underline;
 }
