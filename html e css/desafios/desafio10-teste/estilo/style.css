@@ -32,16 +32,26 @@ body {
 }
 
 header {
-    background-color: var(--cor2);
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
 }
 
 header > h1 {
     color: white;
-    font-family: var(--fonte-destaque);
+    font-family: var(--fonte-padrão);
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 2px 3px 3px rgba(35,35,35,.9);
 }
 
 header > p {
     color: white;
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 2px 3px 3px rgb(35 35 35 / 56%);
 }
 
 nav {
