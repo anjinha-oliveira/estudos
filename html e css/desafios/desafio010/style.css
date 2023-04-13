@@ -81,6 +81,7 @@ main {
 a.external {
    color: #11700D;
    font-weight: bolder;
+   text-decoration: none;
 }
 
 h1.main-title {
