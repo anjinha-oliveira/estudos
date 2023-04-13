@@ -5,33 +5,50 @@
     src: url(fontes/idroid.otf) format(opentype);
 }
 
+:root {
+    --color1: #B1F2AC;
+    --cor2: #17BD6A;
+    --cor3: #2F7050;
+    --cor4: #2F7050;
+}
+
 body {
     background-color: #B1F2AC;
     margin: auto;
 }
 
 header {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     text-align: center;
-    background-color: #17BD6A;
     color: white;
     padding: 18px;
 }
 
-h1 {
+header > h1 {
     margin: 25px;
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 1px 2px 4px rgb(0 0 0 / 56%);
 }
-h3 {
+
+header > h3 {
     font-size: 15px;
     padding: 3px;
     margin: 35px;
     color: whitesmoke;
+    text-shadow: 1px 2px 4px rgb(0 0 0 / 31%);
+}
+
+main > h1 {
+    margin: 25px;
+    font-size: 40px;
+    font-weight: bold;
+
 }
 
 nav {
-    background-color: #2F7050;
     margin: -18px;
     padding: 12px;
     text-align: justify;
@@ -39,16 +56,20 @@ nav {
     justify-content: space-around;
 }
 
-a {
+nav > a {
     color: white;
     text-decoration: none;
-    font-size: 12px;
+    font-weight: bold;
+    padding: 8px;
 }
 
-nav:hover > a {
-    text-decoration: underline;
-    color: rgba(255, 255, 255, 0.51);
+nav > a:hover {
+    background-color: var(--color1);
+    color: var(--cor3);
+    transition-duration: 1s; 
+    border-radius: 5px;
 }
+
 main {
     background-color: white;
     margin: 0px 20px;
@@ -63,9 +84,10 @@ a.external {
 }
 
 h1.main-title {
+    font-size: x-large;
+    font-weight: normal;
     font-family: idroid;
     text-align: center;
-    font-weight: normal;
     color: #11700D
 }
 h2.title-two {
