@@ -89,19 +89,47 @@ main img {
 }
 
 main img.pequena {
-    width: 50%;
+    max-width: 350px;
     display: block;
     margin: auto;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+
+main strong {
+    color: var(--cor4);
+    padding: 2px 6px;
+    font-size: revert;
+}
+
+main a {
+    color: var(--cor4);
+    background-color: #A8D99A;
+    padding: 2px 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: #309E11;
 }
 
 article > h1 {
     color: var(--cor3);
     font-family: var(--fonte-android);
+    font-size: 30px;
 }
 
 article > h2 {
     color: var(--cor3);
     font-family: var(--fonte-android);
+    background-image: linear-gradient(to right, var(--cor0), transparent);
 }
 
 footer {
