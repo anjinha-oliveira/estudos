@@ -7,18 +7,18 @@
 
 :root {
     --color1: #B1F2AC;
-    --cor2: #17BD6A;
-    --cor3: #2F7050;
-    --cor4: #2F7050;
+    --color2: #17BD6A;
+    --color3: #2F7050;
+    --color4: #2F7050;
 }
 
 body {
-    background-color: #B1F2AC;
+    background-color: var(--color1);
     margin: auto;
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+    background-image: linear-gradient(to bottom, var(--color2), var(--color4));
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     text-align: center;
@@ -45,7 +45,6 @@ main > h1 {
     margin: 25px;
     font-size: 40px;
     font-weight: bold;
-
 }
 
 nav {
@@ -65,7 +64,7 @@ nav > a {
 
 nav > a:hover {
     background-color: var(--color1);
-    color: var(--cor3);
+    color: var(--color3);
     transition-duration: 1s; 
     border-radius: 5px;
 }
@@ -79,22 +78,29 @@ main {
     margin-bottom: 26px;
 }
 a.external {
-   color: #11700D;
+   color: var(--color4);
    font-weight: bolder;
    text-decoration: none;
 }
 
+article a:hover {
+    background-color: var(--color1);
+    padding: 2px 4px;
+    transition-duration: .3s;   
+}
+
 h1.main-title {
-    font-size: x-large;
-    font-weight: normal;
+    font-size: xx-large;
+    font-weight: bold;
     font-family: idroid;
     text-align: center;
-    color: #11700D
+    color: var(--color4);
 }
 h2.title-two {
     font-family: idroid;
-    text-align: center;
-    color: #11700D;
+    text-align: justify;
+    color: var(--color4);
+    background-image: linear-gradient(to right, var(--color1), transparent);
     font-weight: normal;
 }
 
@@ -104,7 +110,7 @@ p {
 }
 
 h4 {
-    background-color: #17BD6A;
+    background-color: var(--color2);
     color: white;
     height: 25px;
     border-radius: -4px;
@@ -114,6 +120,11 @@ h4 {
 article.text-end {
     background-color: #a0cf9d7d;
     border-radius: 9px;
+}
+
+article strong {
+    color: var(--color4);   
+    font-weight: bolder;
 }
 
 div {
@@ -133,7 +144,7 @@ img.bugdroid {
 }
 
 footer {
-    background-color: #2F7050;
+    background-color: var(--color4);
     padding: 12px;
     text-align: justify;
     color: rgb(255, 255, 255);
