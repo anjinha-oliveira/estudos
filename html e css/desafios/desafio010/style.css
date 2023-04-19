@@ -21,6 +21,7 @@ header {
     background-image: linear-gradient(to bottom, var(--color2), var(--color4));
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    min-width: 320px;
     text-align: center;
     color: white;
     padding: 18px;
@@ -95,7 +96,7 @@ article a:hover {
 
 h1.main-title {
     font-size: xx-large;
-    font-weight: bold;
+    font-weight: normal;
     font-family: idroid;
     text-align: center;
     color: var(--color4);
@@ -103,7 +104,7 @@ h1.main-title {
 }
 h2.title-two {
     font-family: idroid;
-    text-align: justify;
+    text-align: inherit;
     color: var(--color4);
     background-image: linear-gradient(to right, var(--color1), transparent);
     font-weight: normal;
@@ -141,6 +142,22 @@ div {
     display: flex;
     flex-wrap: nowrap;
     columns: 2;
+}
+
+div.video {
+    background-color: var(--color3);
+    margin: 0px -10px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 90%;
+    height: 90%;
 
 }
 
@@ -157,6 +174,7 @@ img.bugdroid {
 footer {
     background-color: var(--color4);
     padding: 5px;
+    min-width: 320px;
     text-align: center;
     color: rgb(255, 255, 255);
     font-weight: bold;
