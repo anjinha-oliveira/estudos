@@ -21,7 +21,6 @@ header {
     background-image: linear-gradient(to bottom, var(--color2), var(--color4));
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    min-width: 320px;
     text-align: center;
     color: white;
     padding: 18px;
@@ -174,7 +173,6 @@ img.bugdroid {
 footer {
     background-color: var(--color4);
     padding: 5px;
-    min-width: 320px;
     text-align: center;
     color: rgb(255, 255, 255);
     font-weight: bold;
