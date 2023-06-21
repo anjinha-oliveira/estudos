@@ -27,16 +27,23 @@
             background-color: darkgray;
             color: black;
         }
+        caption {
+            font-size: 1em;
+            font-weight: bold;
+            padding: 7px;
+            background-color: #7080908c;
+        }
 
     </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption>População das Unidades Federativas do Brasil</caption>
         <thead>
             <tr>
-               <th>Estado</th>
-               <th>População</th> 
+               <th scope="col">Estado</th>
+               <th scope="col">População</th> 
             </tr>
         </thead>
         <tbody>
@@ -64,10 +71,26 @@
                 <td>Acre</td>
                 <td class="num">164.122,2</td>
             </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">3.893,763</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">3.327,551</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="num">2.227,294</td>            
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td class="num">3.198,185</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td class="num"><strong>1.126.944,5356</strong></td>
             </tr>
         </tfoot>
