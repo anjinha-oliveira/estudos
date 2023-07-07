@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos de Iframe</title>
+    <style>
+        iframe {
+            height: 440px;
+            width: 440px;
+            border: 1px solid blue;
+        }
+    </style>
 </head>
 <body>
     <h1>Testando uso de Iframe</h1>
-    <p>Acessando site do <iframe src="https://www.cursoemvideo.com/" frameborder="0"></iframe> para aprender a programar</p>
+    <p>Acessando site do <iframe src="https://www.cursoemvideo.com/" frameborder="1" scrolling="no">
+        <a href="https://www.cursoemvideo.com/">CursoemVideo</a>
+    </iframe> para aprender a programar</p>
 </body>
 </html>
